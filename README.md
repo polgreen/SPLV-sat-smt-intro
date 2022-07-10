@@ -13,16 +13,17 @@ We have two 90 minute lectures (which will be split into two 45 minute-ish halve
 
 ## Tools
 I'll be using the following tools:
-- Day 1+2: [The Z3 SMT solver (which also allows you to use its internal SAT solver directly)](https://github.com/Z3Prover/z3)
-- Day 1: [CBMC - a bounded model checker for C programs](https://github.com/diffblue/cbmc/) 
-- Day 2: [UCLID5 - a modeling and verification tool that interfaces with SMT solvers](https://github.com/uclid-org/uclid) 
-- Day 2: [CVC5 - an SMT solver and synthesis solver](https://github.com/cvc5/cvc5) 
+- Day 1+2: [The Z3 SMT solver](https://github.com/Z3Prover/z3) (which also allows you to use its internal SAT solver directly)
+- Day 1: [CBMC](https://github.com/diffblue/cbmc/)  - a bounded model checker for C programs
+- Day 2: [UCLID5](https://github.com/uclid-org/uclid)  - a modeling and verification tool that interfaces with SMT solvers
+- Day 2: [CVC5](https://github.com/cvc5/cvc5)  - an SMT solver and synthesis solver
 
 ### Other tools
 I'm not using them, but the following tools are worth a mention:
 - [MiniSAT](http://minisat.se/): a really simple SAT solver
 - [RISS](https://github.com/nmanthey/riss-solver): a SAT solver good at incremental SAT solving and parallel SAT solving
 - [DReal](http://dreal.github.io/): an SMT solver specialising in real arithmetic
+- [BitWuzla](https://bitwuzla.github.io/): An SMT solver specialising in bitvectors and floating point arithmetic
 
 
 ## Examples
