@@ -7,15 +7,15 @@ We have two 90 minute lectures (which will be split into two 45 minute-ish halve
 * some examples of using SAT solvers (especially with CBMC)
 * intro to SMT
 * how to use SMT solvers
-* some examples using SMT solvers
 * application of SMT solving: Amazon Zelkova
 * application of SMT solving: Synthesis
+* using UCLID5 to generate SAT/SMT models
 
 ## Tools
 I'll be using the following tools:
 - Day 1+2: [The Z3 SMT solver (which also allows you to use its internal SAT solver directly)](https://github.com/Z3Prover/z3)
 - Day 1: [CBMC - a bounded model checker for C programs](https://github.com/diffblue/cbmc/) 
-- Day 1+2: [UCLID5 - a modeling and verification tool that interfaces with SMT solvers](https://github.com/uclid-org/uclid) 
+- Day 2: [UCLID5 - a modeling and verification tool that interfaces with SMT solvers](https://github.com/uclid-org/uclid) 
 - Day 2: [CVC5 - an SMT solver and synthesis solver](https://github.com/cvc5/cvc5) 
 
 ## Examples
