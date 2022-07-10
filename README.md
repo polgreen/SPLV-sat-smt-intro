@@ -18,6 +18,13 @@ I'll be using the following tools:
 - Day 2: [UCLID5 - a modeling and verification tool that interfaces with SMT solvers](https://github.com/uclid-org/uclid) 
 - Day 2: [CVC5 - an SMT solver and synthesis solver](https://github.com/cvc5/cvc5) 
 
+### Other tools
+I'm not using them, but the following tools are worth a mention:
+- [MiniSAT](http://minisat.se/): a really simple SAT solver
+- [RISS](https://github.com/nmanthey/riss-solver): a SAT solver good at incremental SAT solving and parallel SAT solving
+- [DReal](http://dreal.github.io/): an SMT solver specialising in real arithmetic
+
+
 ## Examples
 All the examples from the slides are in the examples directory, except Example 4, which is too large, and example 6 which is Amazon's Zelkova
 - Example 1: checking equivalence of code
