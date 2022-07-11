@@ -4,7 +4,7 @@ We have two 90 minute lectures (which will be split into two 45 minute-ish halve
 
 * intro to propositional SAT
 * how to use SAT solvers
-* some examples of using SAT solvers (especially with CBMC)
+* some examples of using SAT solvers (inc. via CBMC)
 * intro to SMT
 * how to use SMT solvers
 * application of SMT solving: Amazon Zelkova
@@ -27,15 +27,16 @@ I'm not using them, but the following tools are worth a mention:
 
 
 ## Examples
-All the examples from the slides are in the examples directory, except Example 4, which is too large, and example 6 which is Amazon's Zelkova
+All the examples from the slides are in the examples directory, except Example 4, which is too large, and example 7 which is Amazon's Zelkova
 - Example 1: checking equivalence of code
 - Example 2: professorial room allocation
 - Example 3: simple CBMC example
 - Example 4: [CBMC for Xen](https://github.com/nmanthey/xen/tree/FMCAD2020)
-- Example 5: Sudoku (with various encodings)
-- Example 6: Zelkova
-- Example 7: Invariants 
-- Example 8: Really simple synthesis encoding
+- Example 5: simple SMT
+- Example 6: Sudoku (with various encodings)
+- Example 7: Zelkova
+- Example 8: Invariants 
+
 
 File extensions tell you which tool you can use to run the file: 
 - `name.c` is a C file. Run `cbmc name.c --trace`
