@@ -36,6 +36,7 @@ All the examples from the slides are in the examples directory, except Example 4
 - Example 6: Sudoku (with various encodings)
 - Example 7: Zelkova
 - Example 8: Invariants 
+- Example 9: UCLID5 examples
 
 
 File extensions tell you which tool you can use to run the file: 
