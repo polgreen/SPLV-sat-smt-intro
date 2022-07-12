@@ -23,5 +23,12 @@ bool f2(bool a, bool b, bool f, bool g, bool h)
 
 void main(void)
 {
-	assert(f1(a,b,f,g,h)==f2(a,b,f,g,h));
+	a = nondet();
+	b = nondet();
+	g = nondet();
+	f = nondet();
+	h = nondet();
+	__CPROVER_assert(f1(a,b,f,g,h)==f2(a,b,f,g,h),"check equivalent");
 }
+
+
